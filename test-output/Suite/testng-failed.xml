@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.training.sanity.tests.MemberTest">
+        <methods>
+          <include name="setUpBeforeClass"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="validLoginTest1"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.MemberTest -->
+      <class name="com.training.sanity.tests.Test1">
+        <methods>
+          <include name="setUpBeforeClass"/>
+          <include name="jiraBug"/>
+          <include name="tearDown"/>
+          <include name="validTest_Step1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.Test1 -->
+      <class name="com.training.sanity.tests.Test3">
+        <methods>
+          <include name="login"/>
+          <include name="validStep_3"/>
+          <include name="setUpBeforeClass"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.Test3 -->
+      <class name="com.training.sanity.tests.LoanTest">
+        <methods>
+          <include name="setUpBeforeClass"/>
+          <include name="jiraBug"/>
+          <include name="validLoanTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.LoanTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
