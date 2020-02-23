@@ -74,7 +74,7 @@
 				<configuration>
 				<includes>
 						<exclude>**/*testng1.xml</exclude>
-						
+						<exclude>**/*testng-dataprovider.xml</exclude>
 					</includes>
 					<source>1.8</source>
 					<target>1.8</target>

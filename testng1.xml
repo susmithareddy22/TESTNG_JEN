@@ -7,7 +7,7 @@
 
 			<class name="com.training.sanity.tests.MemberTest" />
 			<class name="com.training.sanity.tests.Test1" />
-			<class name="com.training.sanity.tests.Test3" />
+			
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
